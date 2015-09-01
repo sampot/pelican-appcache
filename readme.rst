@@ -1,7 +1,8 @@
 HTML5 application cache manifest generator for Pelican
 =========================================================
 
-
+This plugin generates a manifest file for use in HTML application cache. All published pages and articles are included,
+as well as index pages. Other resources can be manually specified in ``APPCACHE_RESOURCES`` setting.
 
 Settings
 ~~~~~~~~~~
